@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="6" result="Passed" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-16 03:06:24Z" end-time="2026-10-16 03:06:24Z" duration="0.0628832">
+  <test-suite type="TestSuite" id="1000" name="Global Deformation Demo" fullname="Global Deformation Demo" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-16 03:06:24Z" end-time="2026-10-16 03:06:24Z" duration="0.062883" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1008" name="GlobalDeformationDemo.Tests.dll" fullname="D:/ChatGPT/作业/GlobalDeformationDemo/Library/ScriptAssemblies/GlobalDeformationDemo.Tests.dll" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-16 03:06:24Z" end-time="2026-10-16 03:06:24Z" duration="0.055560" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="42780" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1009" name="GlobalDeformationDemo" fullname="GlobalDeformationDemo" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-16 03:06:24Z" end-time="2026-10-16 03:06:24Z" duration="0.054943" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1010" name="Tests" fullname="GlobalDeformationDemo.Tests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-16 03:06:24Z" end-time="2026-10-16 03:06:24Z" duration="0.054829" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="DeformationMathTests" fullname="GlobalDeformationDemo.Tests.DeformationMathTests" classname="GlobalDeformationDemo.Tests.DeformationMathTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-16 03:06:24Z" end-time="2026-10-16 03:06:24Z" duration="0.053637" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1004" name="Bend_ZeroAngle_IsIdentity" fullname="GlobalDeformationDemo.Tests.DeformationMathTests.Bend_ZeroAngle_IsIdentity" methodname="Bend_ZeroAngle_IsIdentity" classname="GlobalDeformationDemo.Tests.DeformationMathTests" runstate="Runnable" seed="1941934498" result="Passed" start-time="2026-10-16 03:06:24Z" end-time="2026-10-16 03:06:24Z" duration="0.017777" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1006" name="MovingFfdCorner_MovesMatchingBoundsCorner" fullname="GlobalDeformationDemo.Tests.DeformationMathTests.MovingFfdCorner_MovesMatchingBoundsCorner" methodname="MovingFfdCorner_MovesMatchingBoundsCorner" classname="GlobalDeformationDemo.Tests.DeformationMathTests" runstate="Runnable" seed="1972437731" result="Passed" start-time="2026-10-16 03:06:24Z" end-time="2026-10-16 03:06:24Z" duration="0.001706" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1007" name="ObjParser_TriangulatesQuad" fullname="GlobalDeformationDemo.Tests.DeformationMathTests.ObjParser_TriangulatesQuad" methodname="ObjParser_TriangulatesQuad" classname="GlobalDeformationDemo.Tests.DeformationMathTests" runstate="Runnable" seed="968511003" result="Passed" start-time="2026-10-16 03:06:24Z" end-time="2026-10-16 03:06:24Z" duration="0.014559" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1005" name="RegularFfdLattice_ReproducesOriginalVertex" fullname="GlobalDeformationDemo.Tests.DeformationMathTests.RegularFfdLattice_ReproducesOriginalVertex" methodname="RegularFfdLattice_ReproducesOriginalVertex" classname="GlobalDeformationDemo.Tests.DeformationMathTests" runstate="Runnable" seed="613219389" result="Passed" start-time="2026-10-16 03:06:24Z" end-time="2026-10-16 03:06:24Z" duration="0.000371" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1002" name="Taper_ZeroAmount_IsIdentity" fullname="GlobalDeformationDemo.Tests.DeformationMathTests.Taper_ZeroAmount_IsIdentity" methodname="Taper_ZeroAmount_IsIdentity" classname="GlobalDeformationDemo.Tests.DeformationMathTests" runstate="Runnable" seed="591219022" result="Passed" start-time="2026-10-16 03:06:24Z" end-time="2026-10-16 03:06:24Z" duration="0.000449" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1003" name="Twist_ZeroAngle_IsIdentity" fullname="GlobalDeformationDemo.Tests.DeformationMathTests.Twist_ZeroAngle_IsIdentity" methodname="Twist_ZeroAngle_IsIdentity" classname="GlobalDeformationDemo.Tests.DeformationMathTests" runstate="Runnable" seed="745208296" result="Passed" start-time="2026-10-16 03:06:24Z" end-time="2026-10-16 03:06:24Z" duration="0.000554" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: D:\ChatGPT\作业\GlobalDeformationDemo\TestResults\EditModeResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

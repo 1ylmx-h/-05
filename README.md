@@ -32,7 +32,6 @@ Builds/Windows/GlobalDeformationDemo.exe
 ```
 
 `Builds` 属于生成目录，默认不提交到 Git 仓库。
-
 ## 操作说明
 
 | 操作 | 功能 |
@@ -88,7 +87,6 @@ EditMode 测试位于：
 ```text
 Assets/Tests/EditMode/DeformationMathTests.cs
 ```
-
 测试覆盖：
 
 - 锥化零参数保持顶点不变；
@@ -99,15 +97,6 @@ Assets/Tests/EditMode/DeformationMathTests.cs
 - OBJ 四边形正确三角化。
 
 当前测试结果：`6 passed, 0 failed`。XML 报告保存在 `TestResults/EditModeResults.xml`。
-
-## 演示视频
-
-![演示画面](DemoVideo/preview.png)
-
-[点击查看 14 秒演示视频](DemoVideo/GlobalDeformationDemo.mp4)
-
-视频依次展示原始 OBJ、锥化、扭曲、弯曲和移动 FFD 晶格点后的效果。
-
 ## 仓库提交说明
 
 仓库应直接提交未压缩的 Unity 工程文件，包括：
@@ -119,15 +108,3 @@ ProjectSettings/
 DemoVideo/
 README.md
 ```
-
-不要提交以下自动生成目录：
-
-```text
-Library/
-Temp/
-Logs/
-Builds/
-CaptureFrames/
-```
-
-在课程平台提交时，应直接填写 GitHub 仓库链接；不要把链接写入 TXT，也不要上传链接截图。
